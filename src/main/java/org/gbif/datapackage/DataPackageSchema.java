@@ -19,14 +19,18 @@ import java.util.Date;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * Data schema definition.
  */
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class DataPackageSchema implements Serializable {
 
   private static final long serialVersionUID = -3130006092545816514L;
