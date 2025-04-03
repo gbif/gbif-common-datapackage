@@ -33,14 +33,6 @@ public interface Source {
 
   String getName();
 
-  boolean isFileSource();
-
-  boolean isExcelSource();
-
-  boolean isSqlSource();
-
-  boolean isUrlSource();
-
   boolean isReadable();
 
   SourceType getSourceType();

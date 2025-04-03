@@ -37,14 +37,26 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <commons-collections4.version>4.4</commons-collections4.version>
+    <commons-lang3.version>3.17.0</commons-lang3.version>
+    <gbif-common.version>0.60</gbif-common.version>
     <lombok.version>1.18.20</lombok.version>
   </properties>
 
   <dependencies>
     <dependency>
+      <groupId>org.gbif</groupId>
+      <artifactId>gbif-common</artifactId>
+      <version>${gbif-common.version}</version>
+    </dependency>
+    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-collections4</artifactId>
       <version>${commons-collections4.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>${commons-lang3.version}</version>
     </dependency>
 
     <dependency>
